@@ -6,13 +6,13 @@ main:
     mov eax, 10
     mov ebx, 11
     cmp eax, ebx
-    jg hamster
+    jg next
     
     mov ecx, msgm
     mov edx, lenl
     jmp print_and_exit
     
-hamster:
+next:
     mov ecx, msg
     mov edx, len
     jmp print_and_exit
